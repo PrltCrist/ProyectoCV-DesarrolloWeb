@@ -1,0 +1,620 @@
+@media only screen and (max-width:600px) {
+    * {
+        box-sizing: border-box;
+    }      
+
+    body {
+        background-color: rgb(234 201 239);
+        padding: 0px;
+    } 
+
+    #fuente1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        white-space: nowrap;
+        font-style: oblique;
+        position: relative;
+        left: -3px;
+    }
+
+    #fuente2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+        font-style: italic;
+    }
+
+    #fuente3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -18px;
+        white-space: nowrap;
+    }
+
+    #fh3 {
+        line-height: 24px;
+        font-size: 28px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        word-spacing: -7px;
+        top: -18px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #fuente4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: 25px;
+        margin-bottom: -16px;
+    }
+
+    #fh4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: -18px;
+        margin-bottom: -16px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    li {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -30px;
+    }
+
+    #li1 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 8px;
+    }
+
+    #li2 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 6px;
+    }
+    
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 35px;
+        border-top: 6px rgb(100 55 131) double;
+        border-bottom: 6px rgb(100 55 131) double;
+        padding: 13px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: auto;
+        margin-top: 20px;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+
+    .columnaizquierda {
+        float: left;
+        width: 100%;
+        height: auto;
+        background-color: rgb(234 201 239);
+        padding-right: 2px;
+    }
+    
+    .columnaderecha {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .img {
+        position: relative;
+        top: -10px;
+        right: -15px;
+        float: right;
+        border: 9px rgb(150 115 175) outset;
+        border-radius: 150px;
+        padding: 0;
+        width: 135px;
+        height: auto;
+    }
+
+    .tarjeta {
+        background-color: white;
+        border-radius: 10px;
+        padding: 4px 20px 4px;
+        margin-top: 20px;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #solapaiz {
+        border-left: 8px rgb(100 55 131) solid;
+    }
+
+    #solapade {        
+        border-top: 5px rgb(100 55 131) solid;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(210, 243, 210);
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 10px;
+        border-top: 5px #499b48 double;
+        border-bottom: 5px #499b48 double;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+
+    #fh3 {
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .columnaizquierda {
+        float: left;
+        width: 25%;
+        background-color: rgb(210, 243, 210);
+        padding-right: 20px;
+    }
+    
+    .columnaderecha {
+        float: left;
+        width: 75%;
+    }
+
+    .img {
+        position: relative;
+        bottom: 1110px;
+        right: auto;
+        float: right;
+        border: 9px rgb(58 137 58) outset;
+        border-radius: 70px;
+        padding: 0;
+        width: 190px;
+        height: auto;
+    }
+
+    .tarjeta {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #solapaiz {
+        
+        border-left: 8px #499b48 solid;
+    }
+
+    #solapade {
+        
+        border-top: 5px #499b48 solid;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(210, 243, 210);
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 10px;
+        border-top: 5px #499b48 double;
+        border-bottom: 5px #499b48 double;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+
+    #fh3 {
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .columnaizquierda {
+        float: left;
+        width: 25%;
+        background-color: rgb(210, 243, 210);
+        padding-right: 20px;
+    }
+    
+    .columnaderecha {
+        float: left;
+        width: 75%;
+    }
+
+    .img {
+        position: relative;
+        bottom: 1110px;
+        right: auto;
+        float: right;
+        border: 9px rgb(58 137 58) outset;
+        border-radius: 70px;
+        padding: 0;
+        width: 190px;
+        height: auto;
+    }
+
+    .tarjeta {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #solapaiz {
+        
+        border-left: 8px #499b48 solid;
+    }
+
+    #solapade {
+        
+        border-top: 5px #499b48 solid;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    * {
+        box-sizing: border-box;
+    }      
+
+    body {
+        background-color: rgb(203, 229, 237);
+        padding: 10px;
+    } 
+
+    #fuente1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -4px;
+        margin-bottom: -4px;
+        font-size: 35px;
+        font-style: italic;
+    }
+
+    #fuente2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+        position: relative;
+        top: -5px;
+    }
+
+    #fuente3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -10px;
+        white-space: nowrap;
+    }
+
+    #fh3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -10px;
+        line-height: 25px;
+    }
+
+    #fuente4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: 28px;
+        margin-bottom: -18px;
+    }
+
+    #fh4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: -18px;
+        margin-bottom: -18px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    li{        
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
+        position: relative;
+        top: -50px;
+    } 
+    
+    #li1 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 8px;
+    }
+
+    #li2 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 6px;
+    }
+        
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 10px;
+        border-top: 8px rgb(89, 173, 201) double;
+        border-bottom: 8px rgb(89, 173, 201) double;
+        padding: 20px;
+        margin: -2px 0px -2px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+
+    .columnaizquierda {
+        float: left;
+        width: 25%;
+        position: relative;
+        top: 50px;
+        background-color: rgb(203, 229, 237);
+        padding-right: 20px;
+    }
+    
+    .columnaderecha {
+        float: left;
+        width: 75%;
+    }
+
+    .img {
+        position: absolute;
+        top: -90px;
+        left: 45px;
+        border: 9px rgb(89, 173, 201) outset;
+        border-radius: 150px;
+        padding: 0;
+        width: 135px;
+        height: auto;
+    }
+
+    .tarjeta {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #solapaiz {        
+        border-left: 8px dodgerblue solid;
+        padding-bottom: 0px;
+    }
+
+    #solapade {        
+        border-top: 5px dodgerblue solid;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }      
+
+    body {
+        background-color: rgb(203, 229, 237);
+        padding: 10px;
+    } 
+
+    #fuente1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -4px;
+        margin-bottom: -4px;
+        font-size: 35px;
+        font-style: italic;
+    }
+
+    #fuente2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+        position: relative;
+        top: -5px;
+    }
+
+    #fuente3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -10px;
+        white-space: nowrap;
+    }
+
+    #fh3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -10px;
+        line-height: 25px;
+    }
+
+    #fuente4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: 28px;
+        margin-bottom: -18px;
+    }
+
+    #fh4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: -18px;
+        margin-bottom: -18px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    li{        
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
+        position: relative;
+        top: -50px;
+    } 
+    
+    #li1 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 8px;
+    }
+
+    #li2 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 6px;
+    }
+        
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 10px;
+        border-top: 8px rgb(89, 173, 201) double;
+        border-bottom: 8px rgb(89, 173, 201) double;
+        padding: 20px;
+        margin: 6px 0px 2px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+
+    .columnaizquierda {
+        float: left;
+        width: 25%;
+        position: relative;
+        top: 50px;
+        background-color: rgb(203, 229, 237);
+        padding-right: 20px;
+    }
+    
+    .columnaderecha {
+        float: left;
+        width: 75%;
+    }
+
+    .img {
+        position: absolute;
+        top: -90px;
+        left: 75px;
+        border: 9px rgb(89, 173, 201) outset;
+        border-radius: 150px;
+        padding: 0;
+        width: 135px;
+        height: auto;
+    }
+
+    .tarjeta {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #solapaiz {        
+        border-left: 8px dodgerblue solid;
+        padding-bottom: 0px;
+    }
+
+    #solapade {        
+        border-top: 5px dodgerblue solid;
+    }
+}

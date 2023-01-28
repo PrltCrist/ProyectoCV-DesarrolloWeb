@@ -1,0 +1,64 @@
+
+/**
+*{
+    color: red;
+    border: 1px solid black;
+    font-size: medium;
+}
+*/
+
+p {
+    color: green;
+    border: 13px solid green;
+}
+
+h1 {
+    margin: 100px;
+    padding: 80px;
+    border: 30px tomato solid;
+    color: red;
+    width: 300px;
+    font-weight: bold
+}
+
+#titulo3 {
+    color: orangered;
+    border: 2px olive solid;
+    padding: 15px 10px 15px;
+}
+
+#parrafo2 {
+    color: blue;
+    border: 5px green solid;
+    padding: 5px 10px 20px 15px;
+}
+
+/** para quitar el subrayado de los enlaces usar:
+   a {
+    text-decoration: none;
+   }
+*/
+
+/** para configurar una barra de navegación se puede usar
+    Contenedor de Barra de navegación 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+   links de barra de navegación 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+   Links - cambiar de color al pasar el mouse
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  */
