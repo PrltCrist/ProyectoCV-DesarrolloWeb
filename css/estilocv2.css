@@ -14,7 +14,8 @@
         white-space: nowrap;
         font-style: oblique;
         position: relative;
-        left: -3px;
+        left: -7px;
+        font-size: 23px;
     }
 
     #fuente2 {
@@ -121,8 +122,8 @@
 
     .img {
         position: relative;
-        top: -10px;
-        right: -15px;
+        top: 0px;
+        right: -17px;
         float: right;
         border: 9px rgb(150 115 175) outset;
         border-radius: 150px;
@@ -154,7 +155,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-    
     * {
         box-sizing: border-box;
     }
@@ -165,41 +165,121 @@
 
     .header {
         background-color: white;
-        border-radius: 10px;
-        border-top: 5px #499b48 double;
-        border-bottom: 5px #499b48 double;
-        padding: 20px;
-        text-align: left;
+        border-radius: 35px;
+        border-top: 6px #499b48 double;
+        border-bottom: 6px #499b48 double;
+        padding: 13px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: auto;
+        margin-top: 20px;
     }
     
     h1{
         font-size: 43px;
     }
+    
+    #fuente1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -4px;
+        margin-bottom: -4px;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    #fuente2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+        font-style: italic;
+    }
+
+    #fuente3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -2px;
+        line-height: 25px;
+    }
 
     #fh3 {
-        font-size: 16px;
         font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -2px;
+        line-height: 25px;
+    }
+
+    #fuente4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: 25px;
+        margin-bottom: -16px;
+    }
+
+    #fh4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: -18px;
+        margin-bottom: -16px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    li {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -45px;
+    }
+
+    #li1 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 8px;
+    }
+
+    #li2 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 6px;
+    }
+    
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
     }
 
     .columnaizquierda {
         float: left;
-        width: 25%;
+        width: 35%;
         background-color: rgb(210, 243, 210);
         padding-right: 20px;
     }
     
     .columnaderecha {
         float: left;
-        width: 75%;
+        width: 65%;
     }
 
     .img {
-        position: relative;
-        bottom: 1110px;
-        right: auto;
-        float: right;
+        position: absolute;
+        top: -160px;
+        left: 2px;
+        float: left;
         border: 9px rgb(58 137 58) outset;
-        border-radius: 70px;
+        border-radius: 85px;
         padding: 0;
         width: 190px;
         height: auto;
@@ -219,18 +299,17 @@
     }
 
     #solapaiz {
-        
         border-left: 8px #499b48 solid;
+        position: relative;
+        top: 110px;
     }
 
     #solapade {
-        
         border-top: 5px #499b48 solid;
     }
 }
 
-@media only screen and (min-width: 768px) {
-    
+@media only screen and (min-width: 768px) {    
     * {
         box-sizing: border-box;
     }
@@ -241,41 +320,121 @@
 
     .header {
         background-color: white;
-        border-radius: 10px;
-        border-top: 5px #499b48 double;
-        border-bottom: 5px #499b48 double;
-        padding: 20px;
-        text-align: left;
+        border-radius: 35px;
+        border-top: 6px #499b48 double;
+        border-bottom: 6px #499b48 double;
+        padding: 13px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: auto;
+        margin-top: 20px;
     }
     
     h1{
         font-size: 43px;
     }
+    
+    #fuente1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -4px;
+        margin-bottom: -4px;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    #fuente2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+        font-style: italic;
+    }
+
+    #fuente3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -2px;
+        line-height: 25px;
+    }
 
     #fh3 {
-        font-size: 16px;
         font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: -35px;
+        left: -2px;
+        line-height: 25px;
+    }
+
+    #fuente4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: 25px;
+        margin-bottom: -16px;
+    }
+
+    #fh4 {
+        font-style: oblique;
+        color: gray;
+        margin-top: -18px;
+        margin-bottom: -16px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    li {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -45px;
+    }
+
+    #li1 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 8px;
+    }
+
+    #li2 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 6px;
+    }
+    
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 25px;
     }
 
     .columnaizquierda {
         float: left;
-        width: 25%;
+        width: 30%;
         background-color: rgb(210, 243, 210);
-        padding-right: 20px;
+        padding-right: 30px;
     }
     
     .columnaderecha {
         float: left;
-        width: 75%;
+        width: 70%;
     }
 
     .img {
-        position: relative;
-        bottom: 1110px;
-        right: auto;
-        float: right;
+        position: absolute;
+        top: -160px;
+        left: 2px;
+        float: left;
         border: 9px rgb(58 137 58) outset;
-        border-radius: 70px;
+        border-radius: 85px;
         padding: 0;
         width: 190px;
         height: auto;
@@ -295,12 +454,12 @@
     }
 
     #solapaiz {
-        
         border-left: 8px #499b48 solid;
+        position: relative;
+        top: 110px;
     }
 
     #solapade {
-        
         border-top: 5px #499b48 solid;
     }
 }
@@ -344,12 +503,12 @@
 
     #fh3 {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 28px;
+        font-size: 26px;
         font-style: italic;
         text-align: center;
         position: relative;
         top: -35px;
-        left: -10px;
+        left: -8px;
         line-height: 25px;
     }
 
@@ -376,18 +535,21 @@
         text-indent: 25px;
         position: relative;
         top: -50px;
+        left: -13px;
     } 
     
     #li1 {
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         top: 8px;
+        left: 20px;
     }
 
     #li2 {
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         top: 6px;
+        left: 18px;
     }
         
     p {
@@ -430,8 +592,8 @@
 
     .img {
         position: absolute;
-        top: -90px;
-        left: 45px;
+        top: -105px;
+        left: 40px;
         border: 9px rgb(89, 173, 201) outset;
         border-radius: 150px;
         padding: 0;
@@ -455,6 +617,8 @@
     #solapaiz {        
         border-left: 8px dodgerblue solid;
         padding-bottom: 0px;
+        position: relative;
+        top: -5px;
     }
 
     #solapade {        
@@ -587,12 +751,12 @@
 
     .img {
         position: absolute;
-        top: -90px;
-        left: 75px;
+        top: -135px;
+        left: 60px;
         border: 9px rgb(89, 173, 201) outset;
         border-radius: 150px;
         padding: 0;
-        width: 135px;
+        width: 160px;
         height: auto;
     }
 
@@ -612,6 +776,8 @@
     #solapaiz {        
         border-left: 8px dodgerblue solid;
         padding-bottom: 0px;
+        position: relative;
+        top: 16px;
     }
 
     #solapade {        
