@@ -10,15 +10,9 @@
 <body>
     <p id="demo"></p>
     <script>
-        const persona= '{"nombre":"John", "edad":35, "nacionalidad":"Argentina"}';
-        const obj= JSON.parse(persona);
-        console.log(obj);
-        document.getElementById("demo").innerHTML = "Nombre: "+obj.nombre+"|Edad: "+obj.edad+"|Nacionalidad: "+obj.nacionalidad;
-        // o bien:
-        //document.getElementById("demo").innerHTML = 
-        //"Nombre: "+obj.nombre+"|Edad: "+
-        //obj.edad+"|Nacionalidad: "+
-        //obj.nacionalidad;
+        fetch('https://jsonplaceholder.tipycode.com/todos/1')
+        .then(response => response.json())
+        .then(json => console.log(json))
     </script>
 </body>
 </html>

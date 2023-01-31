@@ -20,7 +20,7 @@ function sumar(a,b) {
 }
 
 suma = sumar(3,4);
-console.log(suna);
+console.log(suma);
 
 suma2 = sumar(6,10);
 suma3 = sumar(2,7);
